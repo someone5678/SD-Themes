@@ -36,3 +36,19 @@
 .notificationcontent_ShortTemplate_2w-Eq, .notificationcontent_PinnedTemplate_H_NPi, .notificationcontent_StandardTemplate_1B_uv, .notificationcontent_ShortTemplate_nwer8, .notificationcontent_StandardTemplate_5HZT7, .notificationcontent_PinnedTemplateDesktop_1-8YO, .notificationcontent_PinnedTemplate_1X-O1 {
   background: var(--obsidian-main-color) !important;
 }
+
+.gamepadtabbedpage_TabContents_WDa0_ {
+  background: var(--obsidian-main-color) !important;
+}
+
+.scrollpanel_ScrollPanel_1CXdi, .scrollpanel_ScrollY_313lB,.BasicUI .DialogContent_InnerWidth>.scrollpanel_ScrollY_313lB,.scrollpanel_ScrollBoth_3S2Ko,.BasicUI .DialogContent_InnerWidth>.scrollpanel_ScrollBoth_3S2Ko, .scrollpanel_ScrollX_1oRGo,.BasicUI .DialogContent_InnerWidth>.scrollpanel_ScrollX_1oRGo,.scrollpanel_ScrollBoth_3S2Ko,.BasicUI .DialogContent_InnerWidth>.scrollpanel_ScrollBoth_3S2Ko {
+  background: var(--obsidian-main-color) !important;
+}
+
+.loadingthrobber_Container_3sa1N, .loadingthrobber_Container_3sa1N.loadingthrobber_PreloadThrobber_1-epa {
+  background: var(--obsidian-main-color) !important;
+}
+
+.overlappingtransition_TransitionGroup_11Twu, .overlappingtransition_ContentWrapper_1knAs, .gamepadtabbedpage_ContentTransition_L_ehQ, .gamepadtabbedpage_Enter_11zfc, .gamepadtabbedpage_EnterActive_3lqCS, .gamepadtabbedpage_Left_3lSTy {
+  background: var(--obsidian-main-color) !important;
+}

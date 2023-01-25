@@ -1,0 +1,276 @@
+:root {
+  --obsidian-main-color: #000;
+  --obsidian-button-glow: #ffffff90;
+}
+
+/* Context menu buttons */
+.basiccontextmenu_contextMenuItem_3PqLg {
+  display: flex;
+  line-height: 20px;
+  position: relative;
+  cursor: pointer;
+  width: 100%;
+  min-width: 280px;
+  box-sizing: border-box;
+  padding: 14px;
+  background: var(--obsidian-main-color);
+  color: #b8bcbf;
+  align-items: center
+}
+.basiccontextmenu_contextMenuItem_3PqLg.Stream, .basiccontextmenu_contextMenuItem_3PqLg.Connect, .basiccontextmenu_contextMenuItem_3PqLg.Launch, .basiccontextmenu_contextMenuItem_3PqLg.PlayMusic, .basiccontextmenu_contextMenuItem_3PqLg.Play, .basiccontextmenu_contextMenuItem_3PqLg.Resume, .basiccontextmenu_contextMenuItem_3PqLg.BorrowApp, .basiccontextmenu_contextMenuItem_3PqLg.Download, .basiccontextmenu_contextMenuItem_3PqLg.Update, .basiccontextmenu_contextMenuItem_3PqLg.PreLoad, .basiccontextmenu_contextMenuItem_3PqLg.Install, .basiccontextmenu_contextMenuItem_3PqLg.Pause, .basiccontextmenu_contextMenuItem_3PqLg.Stop, .basiccontextmenu_contextMenuItem_3PqLg.Cancel {
+  background: var(--obsidian-main-color);
+  color: #dcdedf;
+  text-transform: none;
+  letter-spacing: 0px
+}
+
+/* Sound bar */
+.audio_VolumePopin_2iUUM {
+  background: var(--obsidian-main-color);
+}
+.gamepadslider_SliderTrack_Mq25N {
+  background: #23262e;
+}
+
+/* Notification */
+.notificationcontent_ShortTemplate_2w-Eq, .notificationcontent_PinnedTemplate_H_NPi, .notificationcontent_StandardTemplate_1B_uv, .notificationcontent_ShortTemplate_nwer8, .notificationcontent_StandardTemplate_5HZT7, .notificationcontent_PinnedTemplateDesktop_1-8YO, .notificationcontent_PinnedTemplate_1X-O1 {
+  background: var(--obsidian-main-color) !important;
+}
+
+/*
+@keyframes notificationcontent_ItemFocusAnim-darkerGrey-nocolor_V4Msf{
+  from{
+      background: var(--obsidian-main-color) !important
+  }
+  to{
+      background: var(--obsidian-main-color) !important
+  }
+}
+@keyframes notificationcontent_ItemFocusAnim-darkerGrey_3_1qy{
+  from{
+      background: var(--obsidian-main-color) !important;
+      color:#8b929a
+  }
+  to{
+      background: var(--obsidian-main-color) !important;
+      color:#fff
+  }
+}
+@keyframes notificationcontent_ItemFocusAnim-darkGrey_2Y7xQ{
+  from{
+      background: var(--obsidian-main-color) !important;
+      color:#8b929a
+  }
+  to{
+      background: var(--obsidian-main-color) !important;
+      color:#fff
+  }
+}
+@keyframes notificationcontent_ItemFocusAnim-grey_295OY{
+  from{
+      background: var(--obsidian-main-color) !important;
+      color:#fff
+  }
+  to{
+      background: var(--obsidian-main-color) !important;
+      color:#fff
+  }
+}
+@keyframes notificationcontent_ItemFocusAnimBorder-darkGrey_3NBLW{
+  from{
+      border-color: var(--obsidian-main-color) !important
+  }
+  to{
+      border-color: var(--obsidian-main-color) !important
+  }
+}
+@keyframes notificationcontent_ItemFocusAnim-green_1Sdq4{
+  from{
+      background: var(--obsidian-main-color) !important;
+      color:#8b929a
+  }
+  to{
+      background: var(--obsidian-main-color) !important;
+      color:#fff
+  }
+}
+@keyframes notificationcontent_focusAnimation_2x0zW{
+  0%{
+      background-position:0% 0%;
+      background: var(--obsidian-main-color) !important;
+      opacity:1
+  }
+  100%{
+      background-position:-180% 0%;
+      background: var(--obsidian-main-color) !important;
+      opacity:.8
+  }
+}
+@keyframes notificationcontent_hoverAnimation_IuNUx{
+  0%{
+      background: var(--obsidian-main-color) !important;
+      background-position:0% 0%
+  }
+  100%{
+      background: var(--obsidian-main-color) !important;
+      background-position:50% 0%
+  }
+}
+*/
+
+/* Boot animation background */
+/*
+@keyframes steamdeckbootupthrobber_ItemFocusAnim-darkerGrey-nocolor_p-Xec{
+  from{
+      background: var(--obsidian-main-color) !important
+  }
+  to{
+      background: var(--obsidian-main-color) !important
+  }
+}
+@keyframes steamdeckbootupthrobber_ItemFocusAnim-darkerGrey_2zGWv{
+  from{
+      background: var(--obsidian-main-color) !important;
+      color:#8b929a
+  }
+  to{
+      background: var(--obsidian-main-color) !important;
+      color:#fff
+  }
+}
+@keyframes steamdeckbootupthrobber_ItemFocusAnim-darkGrey_2-3TO{
+  from{
+      background: var(--obsidian-main-color) !important;
+      color:#8b929a
+  }
+  to{
+      background: var(--obsidian-main-color) !important;
+      color:#fff
+  }
+}
+@keyframes steamdeckbootupthrobber_ItemFocusAnim-grey_IFP1W{
+  from{
+      background: var(--obsidian-main-color) !important;
+      color:#fff
+  }
+  to{
+      background: var(--obsidian-main-color) !important;
+      color:#fff
+  }
+}
+@keyframes steamdeckbootupthrobber_ItemFocusAnimBorder-darkGrey_1w_pm{
+  from{
+      border-color:#67707b
+  }
+  to{
+      border-color:#3d4450
+  }
+}
+@keyframes steamdeckbootupthrobber_ItemFocusAnim-green_2nv8F{
+  from{
+      background: var(--obsidian-main-color) !important;
+      color:#8b929a
+  }
+  to{
+      background: var(--obsidian-main-color) !important;
+      color:#fff
+  }
+}
+@keyframes steamdeckbootupthrobber_focusAnimation_3_tSH{
+  0%{
+      background: var(--obsidian-main-color) !important;
+      background-position:0% 0%;
+      opacity:1
+  }
+  100%{
+      background: var(--obsidian-main-color) !important;
+      background-position:-180% 0%;
+      opacity:.8
+  }
+}
+@keyframes steamdeckbootupthrobber_hoverAnimation_1NqZd{
+  0%{
+      background: var(--obsidian-main-color) !important;
+      background-position:0% 0%
+  }
+  100%{
+      background: var(--obsidian-main-color) !important;
+      background-position:50% 0%
+  }
+}
+.steamdeckbootupthrobber_Container_j78ib{
+  position:absolute;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  background-color: var(--obsidian-main-color) !important;
+  z-index:10
+}
+.steamdeckbootupthrobber_Container_j78ib::after{
+  content:"";
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background-color: var(--obsidian-main-color) !important;
+  z-index:1
+}
+.steamdeckbootupthrobber_Container_j78ib.steamdeckbootupthrobber_MoviePlaying_3aJvw::after{
+  animation:steamdeckbootupthrobber_fade_2V_oo;
+  animation-duration:1500ms;
+  animation-fill-mode:both;
+  animation-timing-function:linear;
+  animation-delay:50ms;
+  background-color: var(--obsidian-main-color) !important
+}
+.steamdeckbootupthrobber_Container_j78ib img{
+  flex-grow:0;
+  width:300px;
+  height:300px;
+  z-index:10;
+  background: var(--obsidian-main-color) !important;
+}
+.steamdeckbootupthrobber_Container_j78ib video{
+  flex-grow:0;
+  width:300px;
+  height:300px;
+  z-index:10;
+  background: var(--obsidian-main-color) !important;
+}
+.steamdeckbootupthrobber_Container_j78ib video.steamdeckbootupthrobber_FullscreenVideo_2XDIx{
+  flex-grow:1;
+  width:100%;
+  height:auto;
+  z-index:10;
+  background: var(--obsidian-main-color) !important;
+}
+.steamdeckbootupthrobber_Container_j78ib.steamdeckbootupthrobber_Exit_3hvZo{
+  opacity:1;
+  background: var(--obsidian-main-color) !important;
+}
+.steamdeckbootupthrobber_Container_j78ib.steamdeckbootupthrobber_ExitActive_1uR4A{
+  opacity:0;
+  transition:opacity .25s;
+  background: var(--obsidian-main-color) !important;
+}
+.steamdeckbootupthrobber_Container_j78ib.steamdeckbootupthrobber_ExitDone_2T7oN{
+  display:none;
+  background: var(--obsidian-main-color) !important;
+}
+@keyframes steamdeckbootupthrobber_fade_2V_oo{
+  0%{
+      opacity:1;
+      background: var(--obsidian-main-color) !important;
+  }
+  100%{
+      opacity:0;
+      background: var(--obsidian-main-color) !important;
+  }
+}
+*/

@@ -1,0 +1,17 @@
+{
+  "name": "Obsidian Add-On",
+  "description": "Unofficial Add-On for Obsidian",
+  "author": "someone5678",
+  "version": "v2.2",
+  "manifest_version": 2,
+  "inject": {
+    "shared.css": [
+      "SP",
+      "MainMenu",
+      "QuickAccess",
+      "notificationtoasts.*"
+    ]
+  },
+  "target": "System-Wide",
+  "id": "f16cf40d-7ccc-4981-95bf-77b28e8d101e"
+}

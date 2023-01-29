@@ -1,13 +1,8 @@
 #!/usr/bin/sh -x
 
 CSS_FILE="/home/deck/.steam/steam/steamui/css/sp.css"
-CSS_FILE_BAK="/home/deck/.steam/steam/steamui/css/sp.css.bak"
 
-if [ ! -f $CSS_FILE_BAK ]; then
-    cp -rf $CSS_FILE $CSS_FILE_BAK
-fi
-
-cat $CSS_FILE_BAK | grep "@keyframes steamdeckbootupthrobber_ItemFocusAnim-darkerGrey-nocolor_p" | tr -d '\n\r'> TMP.txt
+cat $CSS_FILE | grep "@keyframes steamdeckbootupthrobber_ItemFocusAnim-darkerGrey-nocolor_p" | tr -d '\n\r'> TMP.txt
 sed -i 's/@keyframes/\n@keyframes/g' TMP.txt
 sed -i 's/}\./}\n\./g' TMP.txt
 sed -i 's/background-color:.*;/background-color:MAIN_COLOR;/g' TMP.txt
@@ -17,7 +12,7 @@ tr -d '\n' < TMP.txt > TMP2.txt
 rm TMP.txt
 mv TMP2.txt TMP.txt
 
-CSS_SIZE=$(stat -c%s $CSS_FILE_BAK)
+CSS_SIZE=$(stat -c%s $CSS_FILE)
 sed -i '/steamdeckbootupthrobber_ItemFocusAnim/c\obsidian_placeholder' $CSS_FILE
 
 MAIN_COLOR_NAME=$(cat ../../Obsidian/config_USER.json | cut -d ":" -f3 | cut -d "\"" -f2) 

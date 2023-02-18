@@ -1,6 +1,6 @@
 #!/usr/bin/sh -x
 
-CSS_FILE="/home/deck/.steam/steam/steamui/css/sp.css"
+CSS_FILE="/home/deck/.steam/steam/steamui/css/library.css"
 
 cat $CSS_FILE | grep "@keyframes steamdeckbootupthrobber_ItemFocusAnim-darkerGrey-nocolor_p" | tr -d '\n\r'> TMP.txt
 sed -i 's/@keyframes/\n@keyframes/g' TMP.txt

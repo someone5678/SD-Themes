@@ -12,6 +12,5 @@
       "notificationtoasts.*"
     ]
   },
-  "target": "System-Wide",
-  "id": "f16cf40d-7ccc-4981-95bf-77b28e8d101e"
+  "target": "System-Wide"
 }

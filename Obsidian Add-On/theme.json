@@ -7,8 +7,6 @@
   "inject": {
     "shared.css": [
       "SP",
-      "MainMenu",
-      "QuickAccess",
       "notificationtoasts.*"
     ]
   },
